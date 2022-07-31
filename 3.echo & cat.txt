@@ -1,0 +1,57 @@
+echo ---> to print words or make files
+----
+echo "(any word you want)" --> to print any word you want
+ex:
+	c:\users\eslam
+	--echo "Eslam omar"
+	eslam omar
+
+echo "(any word you want)" > (the path of the file u want to print the word in it) --> to print any word in any exicting file(if the file have text in it it will be deleted)
+ex1:
+	c:\users\eslam
+	--echo "eslam omar" > E:\Training\"command line"\test.txt
+	c:\users\eslam
+ex2:
+	c:\users\eslam
+	--echo "test" > test.txt
+	c:\users\eslam
+
+echo "(any word you want)" >> (the path of the file u want to print the word in it) --> to print any word in any exicting file(if the file have text in it it will not be deleted)
+ex1:
+	c:\users\eslam
+	--echo "eslam omar" >> E:\Training\"command line"\test.txt
+	c:\users\eslam
+ex2:
+	c:\users\eslam
+	--echo "test" >> test.txt
+	c:\users\eslam	 
+-------------------------------------------------------------------------------------------------------------------
+cat ---> to concatinate word with each other
+----
+cat (the path of the file you want) --> show what inside the text file
+ex:
+	E:\training\command line
+	--cat test.txt
+	test
+	Eslam Omar
+	E:\training\command line
+
+cat * --> show what inside all text files in the directory
+ex:
+	E:\training\command line
+	--cat *
+	test
+	Eslam Omar
+	E:\training\command line
+
+cat (the path of the file you want) > (the path of the file you want) --> to put the text in the file you want in another file(if the file wasn't exist it will make a new file)(if the file have text in it it will be deleted)
+ex:
+	E:\training\command line
+	--cat test.txt > test2.txt
+	E:\training\command line
+
+cat (the path of the file you want) >> (the path of the file you want) --> to put the text in the file you want in another file(if the file wasn't exist it will make a new file)(if the file have text in it it will not be deleted)
+ex:
+	E:\training\command line
+	--cat test.txt >> test2.txt
+	E:\training\command line

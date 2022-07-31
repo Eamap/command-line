@@ -1,0 +1,64 @@
+rename ---> to rename directory
+----
+rename (directory name) (new directory name) --> to rename directory
+ex:
+	D:\Workspace\Training\command line
+	--rename test ok
+	D:\Workspace\Training\command line
+	--cd ok
+	D:\Workspace\Training\command line\ok
+-----------------------------------------------------------------
+move ---> to move a directory or rename it
+----
+move (directory name) (directory new name) --> to rename a directory if this name does not exist
+ex:
+	D:\Workspace\Training\command line
+	--move ok eslam
+	D:\Workspace\Training\command line
+	cd eslam
+	D:\Workspace\Training\command line\eslam
+
+move (directory name) (the directory you want to but in it) --> to move the directory
+ex:
+	D:\Workspace\Training\command line
+	--move test ali
+	D:\Workspace\Training\command line
+
+move (directory name) ..\ --> to move directory to outside
+ex:
+	D:\Workspace\Training\command line\ali
+	--move "eslam omar" ..\
+	D:\Workspace\Training\command line\ali
+	cd ..\
+	D:\Workspace\Training\command line
+	cd eslam omar
+	D:\Workspace\Training\command line\eslam omar
+
+move (directory name) \ --> to move directory to root
+ex:
+	D:\Workspace\Training\command line
+	--move "Eslam Omar" \
+	D:\Workspace\Training\command line
+	cd \
+	D:\
+	--cd Eslam Omar
+	D:\Eslam Omar
+
+move (directory name) (path) --> to move directory to any path you want
+ex:
+	D:\Workspace\Training\command line
+	--move ali D:\Workspace\Collage
+	D:\Workspace\Training\command line
+	--cd \
+	D:\
+	--cd Workspace\Collage\ali
+	D:\workspace\collage\ali
+-------------------------------------------------------------------------------
+rm ---> to remove directory
+----
+rm (directory name) --> to remove directory
+ex:
+	D:\Training\command line
+	--rm eslam
+	D:Training\command line
+-------------------------------------------------------------------------------

@@ -1,0 +1,107 @@
+cd ---> change directory
+----
+cd .. --> to go to previous directory
+ex:
+	D:\Workspace\Tolls\cmder
+	--cd ..
+	D:\Workspace\Tolls
+
+cd \ --> to go to root
+ex:
+	D:\Workspace\Tolls\cmder
+	--cd \
+	D:\
+
+cd (directory name)\ --> to go to directory you want
+cd (directory name)\(directory name)\ --> to go to directory you want
+ex1:
+	D:\
+	--cd Workspace\
+	d:\Workspace
+ex2:
+	D:\
+	--cd Workspace\Tolls\cmder\
+	D:\Workspace\Tolls\cmder
+
+
+cd (character) + tab --> show the direcrtories that start with character you entered
+ex:
+	D:\Workspace
+	--cd p
+	pix\ Projects\
+
+cd (the path u want) --> to go to any directory u want
+ex:
+	D:\Workspace\training\command line
+	--cd D:\Workspace\Collage\Lectures
+	D:\Workspace\Collage\Lectures
+------------------------------------------------------------------------------------------------------
+mkdir ---> make directory
+----
+mkdir (directory name) --> make new directory
+ex:
+	d:\Workspace\training\command line
+	--mkdir eslam
+	d:\Workspace\training\command line
+	--cd eslam
+	d:\Workspace\training\command line\eslam
+ 
+mkdir "(directory name that has spaces)" --> to make new directory that name has space
+ex:
+	d:\Workspace\training\command line
+	--mkdir "Eslam Omar"
+	d:\Worspace\training\command line 
+	--cd Eslam Omar
+	d:\Worspace\training\command line\Eslam Omar
+
+mkdir (directory name) (directory name) (directory name) --> to make many directories at the same time
+ex:
+	d:\Workspace\training\command line
+	--mkdir es or ls
+	d:\Workspace\training\command line
+	--cd es
+	d:\Workspace\training\command line\es
+
+mkdir (tha path you want)+(directory name) --> to make directory in the path you want
+ex:
+	D:\
+	--mkdir D:\Workspace\training\"command line"\eslam
+	D:\
+	--cd Workspace\training\command line\eslam
+	D:\Workspace\Training\command line\eslam
+------------------------------------------------------------------------------------------------------
+clear ---> to clear cmder
+------------------------------------------------------------------------------------------------------
+dir ---> to show your directories
+ex:
+	D:\Workspace\training
+	--dir
+	Volume in drive D is Eslam
+ 	Volume Serial Number is FC66-7D33
+
+ 	Directory of D:\Workspace\Training
+
+	03/19/2022  09:28 PM    <DIR>          .
+	03/19/2022  09:28 PM    <DIR>          ..
+	03/14/2022  04:29 PM    <DIR>          C++
+	03/20/2022  02:01 PM    <DIR>          command line
+	11/15/2021  02:22 PM    <DIR>          Java
+	08/02/2021  11:34 PM    <DIR>          Web
+               0 File(s)              0 bytes
+               6 Dir(s)  648,095,547,392 bytes free
+------------------------------------------------------------------------------------------------------
+ls --> to show your files in the directory
+ex:
+	PS E:\Training\command line>
+	--ls
+
+		Directory: E:\Training\command line
+
+
+	Mode                 LastWriteTime         Length Name
+	----                 -------------         ------ ----
+	-a----         3/20/2022   6:44 PM           2831 1. Directories And Files Part 1.txt
+	-a----         3/20/2022   6:36 PM           1871 2.Directories And Files Part 2.txt
+
+	PS E:\Training\command line>
+------------------------------------------------------------------------------------------------------
